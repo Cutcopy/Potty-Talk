@@ -9,6 +9,7 @@
 1. Basic Elements
 	1.1 Fonts
 2. Page elements
+	2.0 Nav
 	2.1 Logo
 	2.2 Footer
 	2.3 Pagination
@@ -140,6 +141,25 @@ body.loaded .blog-desc {
 	-ms-transform: translateY(0px);
 	transform: translateY(0px);
 }
+
+/*---------------------------------
+2.0 Navigation
+----------------------------------*/
+nav{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+nav ul li{
+	display: inline;
+	list-style-type: none;
+	margin-right: 15px;
+}
+nav ul li a{
+	color: #EC008C;
+}
+
+
 /*---------------------------------
 2.1 Logo
 ----------------------------------*/
@@ -465,7 +485,7 @@ footer.page-wrap > div { margin-left: 170px; }
 	width: 60%;
 }
 .post-header h2 a:before {
-	border-top: 1px solid #e5e5e5;
+	border-top: 1px solid white;
 	bottom: -4px;
 	content: "";
 	left: 50%;
