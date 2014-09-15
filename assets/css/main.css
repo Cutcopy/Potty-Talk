@@ -158,7 +158,9 @@ nav ul li{
 nav ul li a{
 	color: #EC008C;
 }
-
+nav ul li a:hover{
+	color: #00AEEF;
+}
 
 /*---------------------------------
 2.1 Logo
