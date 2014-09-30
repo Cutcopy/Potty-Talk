@@ -380,43 +380,21 @@ footer.page-wrap > div { margin-left: 170px; }
 	font-size: 12px;
 	padding: 50px;
 }
-#footer-content > div {
-	float: left;
-	width: 50%;
-}
-#footer-content p { 
-	margin: 0 20px 12px 0;
-}
-#footer-content p i {
-	color: #c3c8c9;
-	font-size: 14px;
-	padding: 0 8px 0 0;
-	position: relative;
-	top: 3px;
-}
-#footer-content .footer-phone,
-#footer-content .footer-email { float: left; }
-#footer-content dl dt,
-#footer-content dl dd {
-	display: block;
-	float: left;
-	margin-bottom: 12px;
-	padding: 0;
-}
-#footer-content dl dd { 
-	margin: 0 20px 12px 4px; 
-}
-#footer-content dl dt:nth-child(5n) { clear: both; }
-#footer-content h3 {
-	color: #fff;
-	font-size: 12px;
-	margin: 0 0 16px 0;
-	text-transform: uppercase;
-}
+
 #footer-content:after {
 	clear: both;
 	content: "";
 	display: table;
+}
+.footer-links{
+	text-align: center;
+}
+.footer-links ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    
+
 }
 #social-icons {
 	font-size: 1.8em;
@@ -900,13 +878,14 @@ footer.page-wrap > div { margin-left: 170px; }
 		display: none;
 	}
     #social-icons {
-	font-size: 1em;
+	font-size: .8em;
 	margin-bottom: 20px;
 	margin-top: 50px;
 	text-align: center;
     }
 	#social-icons a {
 		color: #EC008C;
+		line-height: 2;
 		display: inline-block;
 		height: 24px;
 		margin: 0 4px;
